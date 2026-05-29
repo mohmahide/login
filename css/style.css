@@ -1,0 +1,33 @@
+html body {
+    background-image: linear-gradient(130deg, #eff6f7, #64c0b7);
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    height: 100%;
+    margin: 0;
+}
+
+.full-height {
+  min-height: 100vh;
+}
+
+
+.cat-container {
+  margin-bottom: -13px; 
+  position: relative; /* برای اینکه بتونیم لایه‌بندی کنیم */
+  z-index: 1; 
+}
+
+.cat-image {
+  max-width: 150px; /* تنظیم اندازه گربه*/
+  height: auto;
+  display: inline-block; /* برای اینکه وسط‌چین بشه */
+}
+
+.card-panel {
+  width: 100%;
+  padding: 24px;
+  position: relative; /* برای اینکه بتونیم لایه‌بندی کنیم */
+  z-index: 999; 
+}
