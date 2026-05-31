@@ -31,3 +31,7 @@ html body {
   position: relative; /* برای اینکه بتونیم لایه‌بندی کنیم */
   z-index: 999; 
 }
+
+#forgot{
+  padding-left: 3rem;
+}

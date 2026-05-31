@@ -20,13 +20,14 @@
           </div>
         <div class="card-panel grey lighten-5 center-align hoverable">
           
-          <h4>Enter your login address</h4>
+          <h4>Enter your login details</h4>
 
           <form>
             <div class="row">
               <div class="input-field col s12">
                 <i class="material-icons prefix">person</i>
-                <input placeholder="User name or Email Address" id="first_name" type="text" class="validate">
+               <input id="password" type="text" class="validate">
+                <label for="password">User name or Email Address</label>
               </div>
             </div>
 
@@ -35,13 +36,24 @@
                 <i class="material-icons prefix">lock</i>
                 <input id="password" type="password" class="validate">
                 <label for="password">Password</label>
+                <br>
+                <a href="#!" class=" teal-text text-lighten-1 left" id="forgot" >Forgot password?</a>
               </div>
             </div>
 
+         
             <button class="btn waves-effect waves-light" type="submit" name="action">
               Send
               <i class="material-icons right">send</i>
             </button>
+            
+             <br>
+             <br>
+
+             <div>
+              <a class=" black-text">not a member?</a>
+              <a href="signUp.html" class=" teal-text text-lighten-1" >SIGN UP!</a>
+             </div>
           </form>
 
         </div>
