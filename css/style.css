@@ -15,23 +15,55 @@ html body {
 
 .cat-container {
   margin-bottom: -13px; 
-  position: relative; /* برای اینکه بتونیم لایه‌بندی کنیم */
+  position: relative; 
   z-index: 1; 
 }
 
 .cat-image {
-  max-width: 150px; /* تنظیم اندازه گربه*/
+  max-width: 150px; 
   height: auto;
-  display: inline-block; /* برای اینکه وسط‌چین بشه */
+  display: inline-block; 
 }
 
 .card-panel {
-  width: 100%;
   padding: 24px;
-  position: relative; /* برای اینکه بتونیم لایه‌بندی کنیم */
+  position: relative; 
   z-index: 999; 
 }
 
 #forgot{
-  padding-left: 3rem;
+  padding-left: 3rem;}
+/* راست‌چین کردن لیبل و متن داخل اینپوت */
+.input-field label, .input-field input {
+    text-align: right !important;
+    
+}
+
+/* اصلاح جایگاه آیکون و فاصله دادن به متن که زیرش نره */
+.input-field .prefix {
+    left: auto !important;
+    right: 0 !important;
+    margin-right: 0 !important;
+}
+
+.input-field input {
+    width: calc(100% - 3rem) !important;
+    margin-right: 3rem !important;
+    padding-right: 0 !important;
+    box-sizing: border-box !important;
+}
+
+.input-field input, 
+.input-field label:not(.label-icon) {
+    padding-right: 3rem !important;
+}
+
+.input-field {
+    direction: rtl;
+     width: 100% !important;
+}
+
+.input-field label {
+    right: 1rem !important;
+    left: auto !important ;
 }
